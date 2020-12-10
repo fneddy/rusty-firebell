@@ -1,0 +1,6 @@
+[build]
+target = "avr-atmega328pb.json"
+rustflags = ["-C", "link-args=--prefix=blob/"]
+
+[unstable]
+build-std = ["core"]
